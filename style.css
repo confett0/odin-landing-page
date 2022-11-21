@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    padding: 40px 16px;
+    padding: 50px 16px;
 }
 
 section > * {
@@ -40,10 +40,6 @@ h3 {
     font-size: 22px;
 }
 
-p {
-    margin-bottom: 15px;
-}
-
 .hero {
     background-color: #232323;
     color: #fff;
@@ -64,12 +60,17 @@ ul {
 .nav {
     display: flex;
     gap: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
-.nav li a {
+a {
     color: #fff;
     text-decoration: none;
-    text-transform: uppercase
+}
+
+a:hover {
+    color: #D3BD76;
 }
 
 button {
@@ -79,9 +80,17 @@ button {
     text-transform: uppercase;
 }
 
+button:hover {
+    background-color: #F0EFE3;
+}
+
 .hero-area {
     display: flex;
     gap: 25px;
+}
+
+.hero-area p {
+    margin-bottom: 20px;
 }
 
 .hero-area img {
@@ -114,9 +123,28 @@ button {
     font-style: italic;
 }
 
+.quote p {
+    max-width: 800px;
+}
+
+.action {
+    background-color: #232323;
+}
+
+.box {
+    background-color: #F0EFE3;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    max-width: 800px;
+}
+
 footer {
     background-color: #151516;
     color: #fff;
+    font-size: 13px;
     padding: 8px;
     text-align: center;
 }
