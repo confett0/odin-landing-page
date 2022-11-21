@@ -1,3 +1,74 @@
-img {
-    width: 400px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 25px 16px;
+}
+
+.hero {
+    background-color: #232323;
+    color: #fff
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    background-color: #D3BD76;
+    padding: 15px;
+}
+
+.hero-area {
+    display: flex;
+}
+
+.hero-area img {
+    width: 450px;
+}
+
+.info {
+    text-align: center;
+}
+
+.cookies {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 250px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+footer {
+    background-color: #151516;
+    color: #fff;
 }
