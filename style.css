@@ -12,7 +12,7 @@ section {
 }
 
 section > * {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -20,24 +20,23 @@ h1, h2, h3  {
     font-family: 'Playfair Display';
 }
 
-/*remove after uploading logo image*/
 .logo {
-    font-family: 'Playfair Display';
-    font-size: 24px;
+    width: 160px;
 }
 
 h1 {
     font-size: 36px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 h2 {
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 h3 {
     font-size: 22px;
+    margin-bottom: 6px;
 }
 
 .hero {
@@ -86,15 +85,17 @@ button:hover {
 
 .hero-area {
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 .hero-area p {
+    font-size: 18px;
+    line-height: 1.4;
     margin-bottom: 20px;
 }
 
 .hero-area img {
-    width: 500px;
+    width: 550px;
 }
 
 .info {
@@ -105,6 +106,7 @@ button:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -119,12 +121,22 @@ button:hover {
 .quote {
     background-color: #D3BD76;
     font-family: 'Playfair Display';
-    font-size: 20px;
+    font-size: 24px;
     font-style: italic;
+    text-align: center;
 }
 
 .quote p {
     max-width: 800px;
+    padding: 5px;
+}
+
+.right {
+    text-align: right;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    
 }
 
 .action {
@@ -141,10 +153,15 @@ button:hover {
     max-width: 800px;
 }
 
+.box button:hover {
+    color: #fff;
+    background-color: #151516;
+}
+
 footer {
     background-color: #151516;
     color: #fff;
     font-size: 13px;
-    padding: 8px;
+    padding: 12px;
     text-align: center;
 }
